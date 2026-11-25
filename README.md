@@ -6,6 +6,8 @@ Currently tested and working for iOS 18.7.8 only. Help is needed from those will
 A jailbroken device is not needed to launch/install the IPA and can be sideloaded as well.
 
 ## Development
+A list of steps for making your own build of BG3D:COD with the patch. This process can be used for further modification or as an alternative to downloading the patched IPA file directly if a download is unavailable.
+
 ### Extraction
 The decrypted app package was first extracted using [Eevee IPA Decrypter][https://t.me/eeveedecrypterbot] on Telegram, which is a suitable option if you do not have access to a jailbroken device (like me).
 Those with a jailbroken device can also extract the IPA using [ipatool][https://github.com/majd/ipatool] if they wish to extract from the App Store directly.
