@@ -29,3 +29,17 @@ insert the following patch by right-clicking on the line and selecting Patch Ins
 ```
 10000aef8 b LAB_10000b2cc
 ```
+This changes the conditional statement (cbz), IVar1 != 0, to an unconditional statement (b) by returning IVar1 before UIToolBar, UITextView and UIFont can be called upon, which are deprecated functions on modern iOS and cause the crash state to be triggered after returning null.
+
+### Repackaging
+Save your Ghidra project and export (File > Export Program) with the Original File format selected(Ghidra ZIP .gzf file type will not work).
+In the original unzipped file where the Mach-O Binary was extracted from, replace the unmodified Mach-O Binary with the newly patched file exported from Ghidra.
+- The new binary should be considerably smaller in size than the original one, I believe that is because 32 bit support is dropped once Ghidra exports the file.
+
+Compress/Rezip the Payload folder (NOT the header folder) and set its destination to somewhere outside the header folder.
+Convert the ZIP to IPA by renaming the new Payload.zip folder to bg3dcod.ipa (the name can be whatever you want as long as the extension is changed to .ipa).
+
+### Uploading
+If done correctly, you now possess the patched IPA and can upload it to your iOS device by sideloading. If your device is jailbroken, you have other options as well.
+- [Sideloadly][https://sideloadly.io/] was used to test the patch originally, but other sideloading applications should work too.
+- Enjoy Block Gun 3D: Call of Destiny like it's 2014 again!
