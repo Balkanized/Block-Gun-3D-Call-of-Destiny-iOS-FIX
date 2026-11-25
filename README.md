@@ -12,11 +12,11 @@ The patched file is currently not available for download due to GitHub file size
 A list of steps for making your own build of BG3D:COD with the patch. This process can be used for further modification or as an alternative to downloading the patched IPA file directly if a download is unavailable.
 
 ### Extraction
-The decrypted app package was first extracted using [Eevee IPA Decrypter][https://t.me/eeveedecrypterbot] on Telegram, which is a suitable option if you do not have access to a jailbroken device (like me).
-Those with a jailbroken device can also extract the IPA using [ipatool][https://github.com/majd/ipatool] if they wish to extract from the App Store directly.
+The decrypted app package was first extracted using [Eevee IPA Decrypter](https://t.me/eeveedecrypterbot) on Telegram, which is a suitable option if you do not have access to a jailbroken device (like me).
+Those with a jailbroken device can also extract the IPA using [ipatool](https://github.com/majd/ipatool) if they wish to extract from the App Store directly.
 
 ### Decryption (Ghidra)
-After extraction, the IPA file is converted to a ZIP file (simply by changing the name of the file extension), unzipped/extracted, and its Mach-O Binary file is exported to [Ghidra][https://github.com/nationalsecurityagency/ghidra] for the decryption of its AARCH-64 Assembly code.
+After extraction, the IPA file is converted to a ZIP file (simply by changing the name of the file extension), unzipped/extracted, and its Mach-O Binary file is exported to [Ghidra](https://github.com/nationalsecurityagency/ghidra) for the decryption of its AARCH-64 Assembly code.
 - The Mach-O Binary file can be identified on Windows as the file within the IPA's Payload directory that shares the same name of the app and appears to have no file extension/type. Insert this file into a new project on Ghidra.
 - You shouldn't have Ghidra analyze the entire ~60 MB binary at once unless you know what you are doing. The next step describes which memory addresses need to be analyzed and rewritten as a function in Objective C.
 
@@ -41,7 +41,7 @@ Convert the ZIP to IPA by renaming the new Payload.zip folder to bg3dcod.ipa (th
 
 ### Uploading
 If done correctly, you now possess the patched IPA and can upload it to your iOS device by sideloading. If your device is jailbroken, you have other options as well.
-- [Sideloadly][https://sideloadly.io/] was used to test the patch originally, but other sideloading applications should work too.
+- [Sideloadly](https://sideloadly.io/) was used to test the patch originally, but other sideloading applications should work too.
 - Enjoy Block Gun 3D: Call of Destiny like it's 2014 again!
 
 ## Acknowledgements
