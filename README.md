@@ -6,7 +6,8 @@ Currently tested and working for iOS 18.7.8 only. Help is needed from those will
 A jailbroken device is not needed to launch/install the IPA and can be sideloaded as well.
 
 ## Download
-The patched file is currently not available for download due to GitHub file size limits. It must be built using the instructions in the Development section.
+- Packaged IPA, From Google Drive: https://drive.google.com/file/d/1vYXiruPHFqsYUHR7GvJKr1LBfwe2CP9X/view?usp=drive_link
+The patched file is currently not available for download from Github directly due to GitHub file size limits. It must be built using the instructions in the Development section.
 
 ## Development
 A list of steps for making your own build of BG3D:COD with the patch. This process can be used for further modification or as an alternative to downloading the patched IPA file directly if a download is unavailable.
