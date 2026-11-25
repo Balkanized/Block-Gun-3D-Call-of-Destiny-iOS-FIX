@@ -41,5 +41,11 @@ Convert the ZIP to IPA by renaming the new Payload.zip folder to bg3dcod.ipa (th
 
 ### Uploading
 If done correctly, you now possess the patched IPA and can upload it to your iOS device by sideloading. If your device is jailbroken, you have other options as well.
+
+## Acknowledgements
+
+- Block Gun 3D: Call of Destiny iOS FIX by Balkanized.
+- Original Game by Matthew Paxman's Wizard Games Inc ©2014.
+- Music by Kevin Macload.
 - [Sideloadly][https://sideloadly.io/] was used to test the patch originally, but other sideloading applications should work too.
 - Enjoy Block Gun 3D: Call of Destiny like it's 2014 again!
