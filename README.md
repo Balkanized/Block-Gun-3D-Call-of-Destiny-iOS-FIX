@@ -16,7 +16,7 @@ The decrypted app package was first extracted using [Eevee IPA Decrypter][https:
 Those with a jailbroken device can also extract the IPA using [ipatool][https://github.com/majd/ipatool] if they wish to extract from the App Store directly.
 
 ### Decryption (Ghidra)
-After extraction, the IPA file is converted to a ZIP file (simply by changing the name of the file extension), unzipped/extracted, and its Mach-O Binary file is exported to Ghidra for the decryption of its AARCH-64 Assembly code.
+After extraction, the IPA file is converted to a ZIP file (simply by changing the name of the file extension), unzipped/extracted, and its Mach-O Binary file is exported to [Ghidra][https://github.com/nationalsecurityagency/ghidra] for the decryption of its AARCH-64 Assembly code.
 - The Mach-O Binary file can be identified on Windows as the file within the IPA's Payload directory that shares the same name of the app and appears to have no file extension/type. Insert this file into a new project on Ghidra.
 - You shouldn't have Ghidra analyze the entire ~60 MB binary at once unless you know what you are doing. The next step describes which memory addresses need to be analyzed and rewritten as a function in Objective C.
 
