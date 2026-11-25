@@ -10,7 +10,7 @@ A jailbroken device is not needed to launch/install the IPA and can be sideloade
 - Mach-O binary (unpackaged), From Google Drive: [link](https://drive.google.com/file/d/1n1lxHOKsUY3aV2COo9ADhP4CkJb04M2p/view?usp=drive_link)
 
 Select the IPA option for sideloading and launching onto your iOS device or the binary option for self-packaging (see Development if so).
-The patched file is currently not available for download from Github directly due to GitHub file size limits. It can be built using the instructions in the Development section.
+The patched file is currently unavailable for download from Github directly due to GitHub file size limits. It can be built using the instructions in the Development section.
 
 ## Development
 A list of steps for making your own build of BG3D:COD with the patch. This process can be used for further modification or as an alternative to downloading the patched IPA file directly if a download is unavailable.
