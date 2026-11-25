@@ -7,6 +7,8 @@ A jailbroken device is not needed to launch/install the IPA and can be sideloade
 
 ## Download
 - Packaged IPA, From Google Drive: https://drive.google.com/file/d/1vYXiruPHFqsYUHR7GvJKr1LBfwe2CP9X/view?usp=drive_link
+- Mach-O binary (unpackaged), From Google Drive: https://drive.google.com/file/d/1n1lxHOKsUY3aV2COo9ADhP4CkJb04M2p/view?usp=drive_link
+
 The patched file is currently not available for download from Github directly due to GitHub file size limits. It must be built using the instructions in the Development section.
 
 ## Development
