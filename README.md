@@ -48,4 +48,4 @@ If done correctly, you now possess the patched IPA and can upload it to your iOS
 
 - Block Gun 3D: Call of Destiny iOS FIX by Balkanized.
 - Original Game by Matthew Paxman's Wizard Games Inc ©2014.
-- Music by Kevin Macload.
+- Music by Kevin Macleod (www.incompetech.com).
